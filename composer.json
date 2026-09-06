@@ -1,0 +1,10 @@
+{
+    "name": "azuriom/music-uploader",
+    "type": "azuriom-plugin",
+    "description": "Позволяет пользователям с определенными ролями загружать музыку в личный кабинет.",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\MusicUploader\\": "src/"
+        }
+    }
+}

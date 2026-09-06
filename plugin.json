@@ -1,0 +1,12 @@
+{
+    "id": "musicuploader",
+    "name": "Music Uploader",
+    "version": "1.0.3",
+    "azuriom_api": "1.0.0",
+    "description": "Allows users with specific roles to upload music.",
+    "authors": ["Serious"],
+    "url": "https://serious-team.ru",
+    "providers": [
+        "\\Azuriom\\Plugin\\MusicUploader\\Providers\\MusicUploaderServiceProvider"
+    ]
+}
