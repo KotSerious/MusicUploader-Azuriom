@@ -35,7 +35,7 @@
         <!-- Левая часть: название трека (всегда слева и не ломает строку) -->
         <div class="pe-3 text-truncate" style="max-width: 40%;">
             <strong class="text-truncate d-block" title="{{ $track->name }}">{{ $track->name }}</strong>
-            <small class="text-muted d-block mt-1">{{ trans('musicuploader::messages.uploaded_at') }}: {{ $track->created_at->format('d.m.Y H:i') }}</small>
+            <small class="text-muted d-block mt-1">{{ trans('musicuploader::messages.uploaded_at') }}: {{ format_date($track->created_at) }}</small>
         </div>
 
         <!-- Правая часть: плеер и кнопки -->

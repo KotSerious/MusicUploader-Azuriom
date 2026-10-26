@@ -23,6 +23,6 @@ class AdminController extends Controller
 
         $track->delete();
 
-        return redirect()->route('musicuploader.admin.index')->with('success', 'Трек успешно удален администратором!');
+        return redirect()->route('musicuploader.admin.index')->with('success', trans('musicuploader::messages.adm_del_track'));
     }
 }

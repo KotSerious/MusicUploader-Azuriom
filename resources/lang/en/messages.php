@@ -31,4 +31,5 @@ return [
 	'adm_date' => 'Upload date',
 	'adm_action' => 'Action',
 	'adm_del_user' => 'Remote user',
+    'adm_del_track' => 'The track has been successfully deleted by an administrator!',
 ];

@@ -39,7 +39,7 @@
                 </div>
             </td>
             <td class="align-middle text-muted">
-                {{ $track->created_at->format('d.m.Y H:i') }}
+                {{ format_date($track->created_at) }}
             </td>
             <!-- Действия модератора -->
             <td class="align-middle text-end">
